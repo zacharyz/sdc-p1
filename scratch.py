@@ -184,3 +184,18 @@ color_edges = np.dstack((edges, edges, edges))
 lines_edges = cv2.addWeighted(color_edges, 0.8, line_image, 1, 0) 
 plt.imshow(lines_edges)
 
+
+
+#np.polyfit
+#     for line in lines:
+#         for x1, y1, x2, y2 in line:
+#             x += [x1, x2]
+#             y += [y1, y2]
+
+#     z = np.polyfit(x, y, 1)
+#     print("z",z)
+#     m, b = z
+#     for i in range(min(x), max(x)):
+#         plt.plot(i, i * m + b, 'go')
+
+#     plt.show()
